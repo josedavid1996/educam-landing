@@ -1,0 +1,18 @@
+mutation CreateInscription($input: CreateInscriptionsInput!) {
+  createInscription(input: $input) {
+    data {
+      id
+      createdAt
+      nombre
+      institucion
+      cargo
+      pais
+      asistencia
+      email
+    }
+    errors {
+      field
+      message
+    }
+  }
+}

@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'StagSans';
+  font-weight: 300;
+  src: url('./StagSans-Thin.woff');
+}
+@font-face {
+  font-family: 'StagSans';
+  font-weight: 400;
+  src: url('./StagSans-Regular.woff');
+}
+
+@font-face {
+  font-family: 'StagSans';
+  font-weight: 500;
+  src: url('./StagSans-Medium.woff');
+}
+
+@font-face {
+  font-family: 'StagSans';
+  font-weight: 600;
+  src: url('./StagSans-SemiBold.woff');
+}
+@font-face {
+  font-family: 'StagSans';
+  font-weight: 700;
+  src: url('./StagSans-Bold.woff');
+}

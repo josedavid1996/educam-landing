@@ -1,0 +1,93 @@
+@import '@src/assets/fonts/stag-sans/stag-sans.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'StagSans', sans-serif;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.gradients {
+  background: rgb(0, 159, 227);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 159, 227, 1) 0%,
+    rgba(49, 39, 131, 1) 100%
+  );
+}
+
+.gradients-timer {
+  /* background: rgb(255, 255, 255); */
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.5) 50%,
+    rgba(255, 255, 255, 0.3) 50%
+  );
+}
+
+/* Button variant */
+.btn-outline-secondary {
+  @apply bg-transparent
+ /* LIGHT */
+ text-secondary
+ border-secondary
+ hover:bg-secondary
+ hover:text-white
+ /* DARK */
+ dark:text-secondary-500
+ dark:border-secondary-500
+ hover:dark:text-white
+ hover:dark:bg-secondary-500;
+}
+
+.btn-outline-primary {
+  @apply bg-transparent
+  /* LIGHT */
+  text-primary 
+  border-primary 
+  hover:bg-primary 
+  hover:text-white;
+}
+
+.btn-outline-primary {
+  @apply bg-transparent
+  /* LIGHT */
+  text-primary 
+  border-primary 
+  hover:bg-primary 
+  hover:text-white;
+}
+
+.btn-outline-white {
+  @apply bg-transparent
+    /* LIGHT */
+  text-white 
+  border-white 
+  hover:bg-white 
+  hover:text-secondary;
+}
+
+input::placeholder {
+  color: #c8c8c8;
+}
+
+.bg-banner-info {
+  background-image: url('/bg-banner-info.jpg');
+  background-size: cover;
+  /* background-position: 0 -136px; */
+  background-repeat: no-repeat;
+}
+
+.Toastify__toast-theme--colored.Toastify__toast--success {
+  background-color: #009fe3 !important;
+}
